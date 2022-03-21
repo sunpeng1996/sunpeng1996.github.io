@@ -3,7 +3,7 @@
 body {
   background-color: #fff;
   padding:50px;
-  font-size: 14px/1.5;
+  font-size: 15px/1.5;
   font-family: "lucida grande", "lucida sans unicode", lucida, "Helvetica Neue", Helvetica, Arial, sans-serif;
   color:#727272;
   font-weight:400;
@@ -55,7 +55,7 @@ a:hover small {
 }
 
 .wrapper {
-  width:860px;
+  width: 1000px;
   margin:0 auto;
 }
 
@@ -171,7 +171,7 @@ header ul a strong {
 }
 
 section {
-  width:550px;
+  width:700px;
   float:right;
   padding-bottom:5px;
 }
@@ -255,7 +255,8 @@ footer {
   }
 }
 
-@media print, screen and (max-width: 480px) {
+@media print, screen and (max-width: 600px) { 
+  /* max-width 480 */
   body {
     padding:15px;
   }
@@ -271,7 +272,7 @@ footer {
 
 @media print {
   body {
-    padding:0.4in;
+    padding:0.3in;
     font-size:12pt;
     color:#444;
   }
